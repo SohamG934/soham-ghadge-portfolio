@@ -5,6 +5,7 @@ import About from '../components/About';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import WorkTimeline from '../components/WorkTimeline';
+import Publications from '../components/Publications';
 import { motion, useScroll, useSpring } from 'framer-motion';
 
 const Index = () => {
@@ -34,6 +35,7 @@ const Index = () => {
         <About />
         <WorkTimeline />
         <Projects />
+        <Publications />
         <Contact />
       </main>
     </div>

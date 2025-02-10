@@ -9,7 +9,7 @@
 
 @layer base {
   body {
-    @apply bg-space-darker text-silver font-inter antialiased;
+    @apply bg-[#1a1a2e] text-silver font-inter antialiased;
   }
 }
 
