@@ -48,6 +48,7 @@ const Hero = () => {
   }, []);
 
   return (
+    <section id="hero" className="py-20">
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <canvas ref={canvasRef} className="matrix-rain" />
       <div className="hero-gradient absolute inset-0" />
@@ -100,6 +101,7 @@ const Hero = () => {
         </motion.div>
       </div>
     </div>
+    </section>
   );
 };
 

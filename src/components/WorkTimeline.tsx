@@ -49,7 +49,7 @@ const experiences = [
 
 const WorkTimeline = () => {
   return (
-    <section className="py-20 relative">
+    <section id='work-timeline' className="py-20 relative">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0 }}

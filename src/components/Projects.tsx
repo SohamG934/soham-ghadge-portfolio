@@ -31,7 +31,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="py-20 relative">
+    <section id='projects' className="py-20 relative">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0 }}
