@@ -20,13 +20,13 @@ const Contact = () => {
               Let's connect and explore possibilities together.
             </p>
             
-            <motion.button
+            <a href='mailto:sohamghadge0903@gmail.com'><motion.button
               className="px-8 py-3 rounded-full bg-gradient-to-r from-neon-green to-neon-blue text-space-black font-medium"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               Contact Me
-            </motion.button>
+            </motion.button></a>
           </div>
 
           <div className="flex justify-center gap-6">
