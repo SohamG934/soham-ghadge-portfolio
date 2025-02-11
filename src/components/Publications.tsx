@@ -41,7 +41,7 @@ const Publications = () => {
           <p className="text-silver/80">Research contributions and academic papers</p>
         </motion.div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 justify-center">
           {publications.map((pub, index) => (
             <motion.div
               key={index}

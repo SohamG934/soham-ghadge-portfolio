@@ -59,7 +59,7 @@ const WorkTimeline = () => {
         >
           <h2 className="text-4xl font-space font-bold mb-12 neon-text text-center">Work Experience</h2>
           
-          <ScrollArea className="h-[600px] w-full rounded-md">
+          {/* <ScrollArea className="h-[600px] w-full rounded-md"> */}
             <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-neon-green before:to-neon-blue">
               {experiences.map((experience, index) => (
                 <motion.div
@@ -88,7 +88,7 @@ const WorkTimeline = () => {
                 </motion.div>
               ))}
             </div>
-          </ScrollArea>
+          {/* </ScrollArea> */}
         </motion.div>
       </div>
     </section>
