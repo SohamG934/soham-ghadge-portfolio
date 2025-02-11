@@ -7,7 +7,7 @@ const skills = [
   { icon: Network, name: "LangChain", level: 85 },
   { icon: Database, name: "PyTorch", level: 88 },
   { icon: Code, name: "Python", level: 95 },
-  { icon: Cloud, name: "AWS/Azure", level: 82 },
+  { icon: Cloud, name: "GCP/AWS/Azure", level: 82 },
   { icon: Cpu, name: "MLOps", level: 85 },
 ];
 

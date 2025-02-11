@@ -5,17 +5,19 @@ import { ExternalLink, Github, Bot, LineChart, Database } from 'lucide-react';
 const projects = [
   {
     title: "ALLM Library",
-    description: "A comprehensive library for Large Language Model implementations with support for multiple architectures.",
+    description: "A comprehensive python package for Large Language Model and agentic integrations with support for multiple architectures.",
     tech: ["PyTorch", "Transformers", "CUDA"],
     metrics: "30% latency reduction",
     icon: Bot,
+    link: 'https://pypi.org/project/allm/'
   },
   {
     title: "Docs2Answer",
     description: "RAG-powered document analysis system for automated question answering.",
-    tech: ["LangChain", "FastAPI", "Vector DB"],
+    tech: ["LangChain", "FastAPI", "ChromaDB"],
     metrics: "95% accuracy on benchmarks",
     icon: Database,
+    link: 'https://github.com/Docs2ans/PDF-Bot'
   },
   {
     title: "Stock Predictor",
@@ -23,6 +25,7 @@ const projects = [
     tech: ["TensorFlow", "Time Series", "API"],
     metrics: "20% better than baseline",
     icon: LineChart,
+    link: 'https://github.com/SohamG934/Stock-bot'
   },
 ];
 
@@ -72,14 +75,14 @@ const Projects = () => {
               </div>
 
               <div className="flex gap-4">
-                <button className="text-sm flex items-center gap-2 hover:text-neon-green transition-colors">
+                <a href={project.link}><button className="text-sm flex items-center gap-2 hover:text-neon-green transition-colors">
                   <Github className="w-4 h-4" />
                   Code
-                </button>
-                <button className="text-sm flex items-center gap-2 hover:text-neon-blue transition-colors">
+                </button></a>
+                {/* <button className="text-sm flex items-center gap-2 hover:text-neon-blue transition-colors">
                   <ExternalLink className="w-4 h-4" />
                   Demo
-                </button>
+                </button> */}
               </div>
             </motion.div>
           ))}

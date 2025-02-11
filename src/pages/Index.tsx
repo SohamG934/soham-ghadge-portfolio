@@ -37,7 +37,7 @@ const Index = () => {
         className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-neon-green to-neon-blue transform origin-left z-50"
         style={{ scaleX }}
       />
-      
+
       <nav className="fixed top-0 left-0 right-0 bg-black/20 backdrop-blur-lg z-40 border-b border-white/10">
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-center h-16 gap-8">
@@ -88,6 +88,7 @@ const Index = () => {
       </nav>
       
       <main className="pt-16">
+>>>>>>> 54b5fd69958a0904e97dc5c95bb3328163536642
         <Hero />
         <About />
         <WorkTimeline />

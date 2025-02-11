@@ -4,26 +4,26 @@ import { BookText } from 'lucide-react';
 
 const publications = [
   {
-    title: "Alzheimer's Disease Diagnosis Using Deep Learning with MRI Scans",
-    journal: "International Journal of Medical Imaging",
-    year: 2023,
+    title: "Ensemble Deep Neural Networks: An assessment for early Alzheimer’s Disease diagnosis with structural MRI",
+    journal: "IEEE Xplore",
+    year: 2024,
     description: "Novel approach to early detection of Alzheimer's using convolutional neural networks and transfer learning on MRI datasets.",
-    link: "#"
+    link: "https://ieeexplore.ieee.org/abstract/document/10660806"
   },
-  {
-    title: "Optimizing Large Language Models for Low-Resource Environments",
-    journal: "arXiv Preprint",
-    year: 2023,
-    description: "Research on model compression and quantization techniques for deploying LLMs in resource-constrained settings.",
-    link: "#"
-  },
-  {
-    title: "Enhanced RAG: Improving Information Retrieval in LLM Applications",
-    journal: "Conference on Neural Information Processing Systems",
-    year: 2022,
-    description: "New methodologies for improving retrieval accuracy and relevance in RAG systems.",
-    link: "#"
-  }
+  // {
+  //   title: "Optimizing Large Language Models for Low-Resource Environments",
+  //   journal: "arXiv Preprint",
+  //   year: 2023,
+  //   description: "Research on model compression and quantization techniques for deploying LLMs in resource-constrained settings.",
+  //   link: "#"
+  // },
+  // {
+  //   title: "Enhanced RAG: Improving Information Retrieval in LLM Applications",
+  //   journal: "Conference on Neural Information Processing Systems",
+  //   year: 2022,
+  //   description: "New methodologies for improving retrieval accuracy and relevance in RAG systems.",
+  //   link: "#"
+  // }
 ];
 
 const Publications = () => {

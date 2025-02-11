@@ -31,10 +31,10 @@ const Contact = () => {
 
           <div className="flex justify-center gap-6">
             {[
-              { icon: Mail, href: "mailto:contact@sohamghadge.com" },
-              { icon: Github, href: "https://github.com/sohamghadge" },
+              { icon: Mail, href: "mailto:sohamghadge0903@gmail.com" },
+              { icon: Github, href: "https://github.com/sohamg934" },
               { icon: Linkedin, href: "https://linkedin.com/in/sohamghadge" },
-              { icon: Twitter, href: "https://twitter.com/sohamghadge" },
+              { icon: Twitter, href: "https://twitter.com/sohamg5" },
             ].map((social, index) => (
               <motion.a
                 key={index}
