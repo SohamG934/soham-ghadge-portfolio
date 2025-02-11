@@ -73,7 +73,7 @@ const WorkTimeline = () => {
                     <Briefcase className="h-5 w-5 text-neon-green" />
                   </div>
                   
-                  <div className="glass-panel p-6">
+                  <div className="glass-panel p-6" ml-4>
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                       <h3 className="text-xl font-space font-bold text-neon-green">{experience.company}</h3>
                       <span className="text-sm text-silver/80">{experience.period}</span>
