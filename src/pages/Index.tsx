@@ -88,7 +88,6 @@ const Index = () => {
       </nav>
       
       <main className="pt-16">
->>>>>>> 54b5fd69958a0904e97dc5c95bb3328163536642
         <Hero />
         <About />
         <WorkTimeline />
