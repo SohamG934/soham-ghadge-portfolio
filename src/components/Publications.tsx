@@ -4,7 +4,7 @@ import { BookText } from 'lucide-react';
 
 const publications = [
   {
-    title: "Ensemble Deep Neural Networks: An assessment for early Alzheimer’s Disease diagnosis with structural MRI",
+    title: "Ensemble Deep Neural Networks: An assessment for early Alzheimer's Disease diagnosis with structural MRI",
     journal: "IEEE Xplore",
     year: 2024,
     description: "Novel approach to early detection of Alzheimer's using convolutional neural networks and transfer learning on MRI datasets.",
@@ -41,7 +41,7 @@ const Publications = () => {
           <p className="text-silver/80">Research contributions and academic papers</p>
         </motion.div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 justify-center">
+        <div className="flex flex-wrap justify-center gap-8">
           {publications.map((pub, index) => (
             <motion.div
               key={index}
@@ -49,7 +49,7 @@ const Publications = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="glass-panel p-6 hover:bg-white/10 transition-colors"
+              className="glass-panel p-6 hover:bg-white/10 transition-colors max-w-md"
             >
               <BookText className="w-8 h-8 text-neon-green mb-4" />
               <h3 className="text-xl font-semibold mb-2">{pub.title}</h3>
