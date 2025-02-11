@@ -28,7 +28,8 @@
 }
 
 .hero-gradient {
-  background: linear-gradient(135deg, rgba(0,255,157,0.1) 0%, rgba(0,229,255,0.1) 100%);
+  /* background: linear-gradient(135deg, rgba(0,255,157,0.1) 0%, rgba(0,229,255,0.1) 100%);
+*/
 }
 
 .matrix-rain {
